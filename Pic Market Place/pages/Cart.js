@@ -12,13 +12,7 @@ function Cart() {
         <CartItem key={item.id} item={item} />
     ))
     
-    function placeOrder() {
-        setButtonText("Ordering...")
-        setTimeout(() => {
-            console.log("Order placed!")
-            setButtonText("Place Order")
-            emptyCart()
-        }, 3000)
+
     }
     
     return (
